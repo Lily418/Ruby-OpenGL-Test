@@ -2,11 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     glfw3 (0.4.8)
-    opengl (0.9.0)
+    opengl-aux (1.0.0.pre3)
+      opengl-core (~> 2.0)
+      snow-data (~> 1.3, >= 1.3.1)
+    opengl-core (2.0.1)
+    snow-data (1.3.1)
+    snow-math (1.7.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  glfw3 (~> 0.4.8)
-  opengl (~> 0.9.0)
+  glfw3
+  opengl-aux
+  opengl-core
+  snow-math
