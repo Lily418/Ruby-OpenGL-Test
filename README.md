@@ -1,4 +1,4 @@
-SpaceMonsters
+Ruby OpenGL Test
 =============
 
-Fight monsters in space, what's not to love?
+An example of using Ruby's OpenGL bindings.
